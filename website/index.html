@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WR Calculator</title>
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <img src="icon.png" alt="" class="logo" width="64" height="64">
+    <h1>WR Calculator</h1>
+    <p class="description">
+      Calculate how many matches you need to win to reach a certain winrate.
+    </p>
+
+    <form id="calculator" novalidate>
+      <label for="matches">Matches played:</label>
+      <input type="number" id="matches" name="matches" min="1" placeholder="Enter total matches." required>
+
+      <label for="winrate">Winrate:</label>
+      <input type="number" id="winrate" name="winrate" min="0" max="100" step="0.01" placeholder="Enter current winrate." required>
+
+      <label for="expected-wr">Expected WR:</label>
+      <input type="number" id="expected-wr" name="expected-wr" min="0" max="100" step="0.01" placeholder="Enter expected winrate." required>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <p id="result" class="result" aria-live="polite"></p>
+  </main>
+
+  <footer>
+    Created by: Mohamed Darwesh (<a href="https://github.com/medovanx" target="_blank" rel="noopener">@medovanx</a>)
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

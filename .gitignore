@@ -2,3 +2,4 @@
 *.ini
 *.exe
 *.png
+.vscode/
