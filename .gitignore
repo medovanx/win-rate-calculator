@@ -1,6 +1,5 @@
 *.ico
 *.ini
 *.exe
-*.png
 .vscode/
 .venv/

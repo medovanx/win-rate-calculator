@@ -5,7 +5,7 @@ from PyQt6.QtWidgets import QLineEdit, QLabel, QPushButton, QApplication, QWidge
 from PyQt6 import QtGui, QtCore
 from PyQt6.QtCore import Qt
 
-ICON_PATH = Path(__file__).resolve().parent / "assets" / "icon.png"
+ICON_PATH = Path(__file__).resolve().parent / "logo.png"
 
 class Window(QWidget):
     def __init__(self):
