@@ -3,7 +3,7 @@
   
 #  WR Calculator
   
-A simple application to calculate the number of consecutive matches you need to win to reach a certain Winrate.
+A simple application to calculate the number of consecutive matches you need to win or lost to reach a certain Winrate.
   
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![PyPI version](https://img.shields.io/pypi/pyversions/spotDL?color=%2344CC11&style=flat-square)](https://www.python.org/)
